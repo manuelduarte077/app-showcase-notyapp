@@ -22,13 +22,6 @@ body {
   margin-bottom: 50px;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: rgb(29, 29, 29);
-    color: #fff8f5;
-  }
-}
 
 @media only screen and (max-width: 420px) {
   h1 {
@@ -76,12 +69,6 @@ a:hover {
   width: 100%;
 }
 
-.qr-download {
-  position: absolute;
-  top: 45px;
-  right: 75px;
-  display: unset;
-}
 
 .header {
   display: flex;
@@ -111,13 +98,6 @@ a:hover {
   align-items: center;
   margin-top: 75px;
   margin-bottom: 15px;
-}
-
-/* Disable qr as it starts to cramp the header */
-@media only screen and (max-width: 800px) {
-  .qr-download {
-    display: none;
-  }
 }
 
 /* Enabled on mobile */
